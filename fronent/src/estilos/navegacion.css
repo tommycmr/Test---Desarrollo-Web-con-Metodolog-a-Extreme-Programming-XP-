@@ -1,0 +1,46 @@
+.navegacion {
+  width: 97vw;
+  background: linear-gradient(90deg, #1a237e, #0d47a1);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+  border-bottom: 2px solid #0d47a1;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.enlaces {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.enlaces a {
+  color: #ffffffcc;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.enlaces a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+.enlaces a.activo {
+  background: #3949ab;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
